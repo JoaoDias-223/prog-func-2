@@ -21,5 +21,7 @@
   [mapa chave]
   (dissoc mapa chave))
 
-
 ;; atualizar
+(defn atualiza-chave
+  [mapa chave valor]
+  (assoc mapa chave valor))
